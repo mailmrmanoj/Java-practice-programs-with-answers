@@ -1,8 +1,8 @@
-public class Main
+public class Ten
 {
     public static void main(String[] args) {
 
-        int i=0;
+        int i=80;
         int j=10;
         int k=i++ + ++i;
         System.out.println(i++ + j++);
@@ -12,13 +12,12 @@ public class Main
     }
 }
 
-
-
 /*------Output------*/
 /*
 
-12
+92
 11
-2
+162
+
 
 */
